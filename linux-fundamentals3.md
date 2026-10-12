@@ -5,7 +5,7 @@
 | curl | Text |
 | scp | transferring files between computer using ssh |scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt|
 | python3 -m http.server | using python to start a web server |
-| Header | Title |
+| ls -a |  |
 | Paragraph | Text |
 | Header | Title |
 | Paragraph | Text |
