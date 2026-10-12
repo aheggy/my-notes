@@ -1,3 +1,5 @@
 ## command
-| command || discription|
-|---------||------------|
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
