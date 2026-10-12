@@ -1,4 +1,4 @@
-# command
+# Command
 | Command | Description |
 | ----------- | ----------- |
 | Header | Title |
