@@ -4,7 +4,7 @@
 | wget | allows us to download files from the web via HTTP | wget https://assets.tryhackme.com/additional/linux-fundamentals/part3/myfile.txt |
 | curl | Text |
 | scp | transferring files between computer using ssh |scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt|
-| Paragraph | Text |
+| python3 -m http.server | using python to start a web server |
 | Header | Title |
 | Paragraph | Text |
 | Header | Title |
