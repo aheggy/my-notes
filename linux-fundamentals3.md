@@ -1,5 +1,5 @@
-## command
-| Syntax | Description |
+# command
+| Command | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
