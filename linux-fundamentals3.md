@@ -7,7 +7,7 @@
 | python3 -m http.server | using python to start a web server |
 | ls -a |  |
 | Paragraph | Text |
-| Header | Title |
+| systemctl start or stop or enable or disable service | Title |
 | Paragraph | Text |
 | Header | Title |
 | Paragraph | Text |
