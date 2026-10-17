@@ -17,4 +17,6 @@
 | ps aux \| less | locate flaged process |
 | systemctl stop "myservice" | stop myservice |
 | systemctl enable "myservice" | start my service at booting |
-| test | test | test |
+| crontab | 0 */12 * * * cp -R /home/cmnatic/Documents /var/backups/ |  |
+| crontab -e | select an editor (such as Nano) to edit your crontab |  |
+| crontab |  |  |
