@@ -8,12 +8,12 @@
 | ls -a |  |
 | Paragraph | Text |
 | systemctl start or stop or enable or disable service | Title |
-| Paragraph | Text |
-| Header | Title |
-| Paragraph | Text |
-| Header | Title |
-| Paragraph | Text |
-| Header | Title |
+| ps and ps aux | viewing processes |
+| top | refresh every 10 seconed |
+| kill (proces ID ) | Text |
+| kill -SIGTERM  <process ID > | kill the process but allow it to do some cleanup tasks beforehand |
+| kill -SIGKILL <process ID > | Kill the process - doesn't do any cleanup after the fact |
+| kill -SIGSTOP | Stop/suspend a process |
 | Paragraph | Text |
 | Header | Title |
 | Paragraph | Text |
