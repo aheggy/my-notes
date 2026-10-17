@@ -14,6 +14,6 @@
 | kill -SIGTERM  <process ID > | kill the process but allow it to do some cleanup tasks beforehand |
 | kill -SIGKILL <process ID > | Kill the process - doesn't do any cleanup after the fact |
 | kill -SIGSTOP | Stop/suspend a process |
-| ps aux | less | Text |
+| ps aux \| less | Text |
 | Header | Title |
 | Paragraph | Text |
