@@ -17,4 +17,4 @@
 | ps aux \| less | locate flaged process |
 | systemctl stop "myservice" | stop myservice |
 | systemctl enable "myservice" | start my service at booting |
-|  |  |  |
+| test | test | test |
