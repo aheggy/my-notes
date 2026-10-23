@@ -11,4 +11,9 @@
 | netstat -b | shows the program associated with each listening port and established connection |  |
 | netstat -o | reveals the process ID (PID) associated with the connection |  |  
 | netstat -n | uses a numerical form for addresses and port number |  |
-
+| chkdsk |  checks the file system and disk volumes for errors and bad sectors. |  |
+| driverquery | displays a list of installed device drivers. |  |
+| sfc /scannow |  scans system files for corruption and repairs them if possible. |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
