@@ -9,5 +9,5 @@
 | netstat |  This command displays current network connections and listening ports -a displays all established connections and listening ports
 -b shows the program associated with each listening port and established connection
 -o reveals the process ID (PID) associated with the connection
--n uses a numerical form for addresses and port numbers ||
+-n uses a numerical form for addresses and port numbers |  |
 
