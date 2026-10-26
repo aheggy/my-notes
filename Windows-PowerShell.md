@@ -4,4 +4,5 @@
 | get-command -commandtype "Function" |  if we want to display only the available commands of type “function”, |  |
 | Get-Help |||
 | Get-Alias |||
+|Get-Alias -name "echo"| how to get the cmdlet has its traditional counterpart echo as an alias||
 |Get-Command -Name Remove*| retrieve a list of commands that start with the verb Remove|||
