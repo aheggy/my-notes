@@ -7,3 +7,9 @@
 |Get-Alias -name "echo"| how to get the cmdlet has its traditional counterpart echo as an alias||
 |Get-Command -Name Remove*| retrieve a list of commands that start with the verb Remove|||
 |Get-Help New-LocalUser -examples|What is the command to retrieve some example usage for the cmdlet New-LocalUser?||
+|git-childitem|work like dir and ls||
+|set-location -path ".\Documents"| will set the pas to be in document ||
+|New-Item -Path xxxxxxxx -ItemType "Directory" or "file"|||
+|Remove-Item -Path xxxxxx|||
+|Get-ChildItem -Path xxxxx|||
+|Get-Content -Path ".\captain-hat.txt"   |||
