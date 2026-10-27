@@ -13,3 +13,9 @@
 |Remove-Item -Path xxxxxx|||
 |Get-ChildItem -Path xxxxx|||
 |Get-Content -Path ".\captain-hat.txt"   |||
+|Get-ChildItem | Sort-Object Length|get a list of files in a directory and then sort them by size||
+| Get-ChildItem | Where-Object -Property "Extension" -eq ".txt"|||
+|Get-ChildItem | Where-Object -Property "Name" -like "ship*"|||
+|Get-ChildItem | Where-Object -Property Length -gt 100|retrieve the items in the current directory with size greater than 100?||
+
+
