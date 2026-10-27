@@ -17,5 +17,17 @@
 | Get-ChildItem | Where-Object -Property "Extension" -eq ".txt"|||
 |Get-ChildItem | Where-Object -Property "Name" -like "ship*"|||
 |Get-ChildItem | Where-Object -Property Length -gt 100|retrieve the items in the current directory with size greater than 100?||
+|Get-Service| retrieval of information about the status of services on the machine, such as which services are running, stopped, or paused.||
+|Get-Process|provides a detailed view of all currently running processes, including CPU and memory usage, making it a powerful tool for monitoring and troubleshooting.||
+|Get-NetTCPConnection|displays current TCP connections, giving insights into both local and remote endpoints||
+|Get-FileHash| a useful cmdlet for generating file hashes, which is particularly valuable in incident response, threat hunting, and malware analysis, as it helps verify file integrity and detect potential tampering.||
+|Get-Service \| Where-Object {$_.DisplayName -like "*merry*"}|||
+|||
+||||
+||||
+||||
+||||
+||||
+||||
 
 
