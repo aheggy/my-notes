@@ -21,12 +21,12 @@
 |Get-Process|provides a detailed view of all currently running processes, including CPU and memory usage, making it a powerful tool for monitoring and troubleshooting.||
 |Get-NetTCPConnection|displays current TCP connections, giving insights into both local and remote endpoints||
 |Get-FileHash| a useful cmdlet for generating file hashes, which is particularly valuable in incident response, threat hunting, and malware analysis, as it helps verify file integrity and detect potential tampering.||
-|Get-Service \| Where-Object {$_.DisplayName -like "*merry*"}|||
-|||
-||||
-||||
-||||
-||||
+|Get-Service \| Where-Object {$_.DisplayName -like "*merry*"}| to get a service name where the display name contain word merry||
+|Get-Item -Path "C:\House\house_log.txt" -Stream *||
+|Invoke-Command|||
+|Get-Help Invoke-Command -examples|||
+|Invoke-Command -FilePath c:\scripts\test.ps1 -ComputerName Server01|example shows how the cmdlet can be very easily combined with any custom script to automate tasks on remote computers.||
+|Invoke-Command -ComputerName Server01 -Credential Domain01\User01 -ScriptBlock { Get-Culture }|example demonstrates that we don't need to know how to script to benefit from the power of Invoke-Command. In fact, by appending the -ScriptBlock { ... }||
 ||||
 ||||
 
