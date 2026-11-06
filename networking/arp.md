@@ -74,6 +74,7 @@ How to read line 1: source = `cc:5e:f8:02:21:a7` (the asker), destination = `ff:
 
 ## Related
 
+- Before ARP: [DHCP](./dhcp.md) gives the device its IP, router and DNS
 - Windows: [Command Line (cmd)](../windows/command-line.md) (`ipconfig`, `netstat`)
 - Linux: [Fundamentals, Part 3](../linux/fundamentals-part-3.md)
 - [Windows vs Linux cheat sheet](../cross-platform.md)

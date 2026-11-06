@@ -22,14 +22,15 @@ Read in this order:
 
 ## Networking
 
-1. [ARP](./networking/arp.md): how a device finds another device's MAC address from its IP
+1. [DHCP](./networking/dhcp.md): how a device gets its IP, gateway and DNS automatically (DORA)
+2. [ARP](./networking/arp.md): how a device finds another device's MAC address from its IP
 
 ## Map
 
 ```
 windows/   fundamentals -> command-line -> powershell -> active-directory-basics
 linux/     fundamentals-part-3 -> shells -> shells-example.sh
-networking/         arp
+networking/         dhcp -> arp
 cross-platform.md   links the two sides together
 ```
 
