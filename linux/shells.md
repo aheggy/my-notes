@@ -1,7 +1,17 @@
-|command|Discription|example|
-|-----------|--------|--------|
-|nano "file_name".sh|.sh the default extension for bash script|[examples](./Linux-Shells-Example.sh)|
-|chmod +x "file_name".sh| to give execution permissions to the script||
-|./"file_name"|use this command to execute||
-|pwd to get the current location |||
-|sudo su| to become a root user||
+[Home](../README.md) › Linux › Shells
+
+# Linux Shells (bash scripting)
+
+| Command | Description | Example |
+| --- | --- | --- |
+| `nano "file_name".sh` | `.sh` is the default extension for bash scripts | [examples](./shells-example.sh) |
+| `chmod +x "file_name".sh` | Give execution permission to the script | |
+| `./"file_name"` | Run the script | |
+| `pwd` | Print the current location | |
+| `sudo su` | Become the root user | |
+
+## Related
+
+- Previous: [Linux Fundamentals, Part 3](./fundamentals-part-3.md)
+- Example scripts: [shells-example.sh](./shells-example.sh)
+- Windows scripting: [PowerShell](../windows/powershell.md) · [cross-platform cheat sheet](../cross-platform.md)

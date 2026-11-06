@@ -1,33 +1,61 @@
-|code|discription|example|
-| ------------------ | ------------- | ------------ |
-|get-command| essential tool for discovering what commands one can use ||
-| get-command -commandtype "Function" |  if we want to display only the available commands of type “function”, |  |
-| Get-Help |||
-| Get-Alias |||
-|Get-Alias -name "echo"| how to get the cmdlet has its traditional counterpart echo as an alias||
-|Get-Command -Name Remove*| retrieve a list of commands that start with the verb Remove|||
-|Get-Help New-LocalUser -examples|What is the command to retrieve some example usage for the cmdlet New-LocalUser?||
-|git-childitem|work like dir and ls||
-|set-location -path ".\Documents"| will set the pas to be in document ||
-|New-Item -Path xxxxxxxx -ItemType "Directory" or "file"|||
-|Remove-Item -Path xxxxxx|||
-|Get-ChildItem -Path xxxxx|||
-|Get-Content -Path ".\captain-hat.txt"   |||
-|Get-ChildItem | Sort-Object Length|get a list of files in a directory and then sort them by size||
-| Get-ChildItem | Where-Object -Property "Extension" -eq ".txt"|||
-|Get-ChildItem | Where-Object -Property "Name" -like "ship*"|||
-|Get-ChildItem | Where-Object -Property Length -gt 100|retrieve the items in the current directory with size greater than 100?||
-|Get-Service| retrieval of information about the status of services on the machine, such as which services are running, stopped, or paused.||
-|Get-Process|provides a detailed view of all currently running processes, including CPU and memory usage, making it a powerful tool for monitoring and troubleshooting.||
-|Get-NetTCPConnection|displays current TCP connections, giving insights into both local and remote endpoints||
-|Get-FileHash| a useful cmdlet for generating file hashes, which is particularly valuable in incident response, threat hunting, and malware analysis, as it helps verify file integrity and detect potential tampering.||
-|Get-Service \| Where-Object {$_.DisplayName -like "*merry*"}| to get a service name where the display name contain word merry||
-|Get-Item -Path "C:\House\house_log.txt" -Stream *||
-|Invoke-Command|||
-|Get-Help Invoke-Command -examples|||
-|Invoke-Command -FilePath c:\scripts\test.ps1 -ComputerName Server01|example shows how the cmdlet can be very easily combined with any custom script to automate tasks on remote computers.||
-|Invoke-Command -ComputerName Server01 -Credential Domain01\User01 -ScriptBlock { Get-Culture }|example demonstrates that we don't need to know how to script to benefit from the power of Invoke-Command. In fact, by appending the -ScriptBlock { ... }||
-||||
-||||
+[Home](../README.md) › Windows › PowerShell
 
+# Windows PowerShell
 
+## Discovering commands and help
+
+| Command | Description |
+| --- | --- |
+| `Get-Command` | Essential tool for discovering what commands you can use |
+| `Get-Command -CommandType "Function"` | Display only the available commands of type "Function" |
+| `Get-Command -Name Remove*` | List commands that start with the verb Remove |
+| `Get-Help` | Help for a cmdlet |
+| `Get-Help New-LocalUser -Examples` | Example usage for the cmdlet New-LocalUser |
+| `Get-Alias` | List aliases |
+| `Get-Alias -Name "echo"` | Find the cmdlet behind its traditional counterpart `echo` |
+
+## Files and navigation
+
+| Command | Description |
+| --- | --- |
+| `Get-ChildItem` | Works like `dir` and `ls` |
+| `Get-ChildItem -Path xxxxx` | List a specific path |
+| `Set-Location -Path ".\Documents"` | Change the current directory to Documents |
+| `New-Item -Path xxxxxxxx -ItemType "Directory"` (or `"File"`) | Create a directory or file |
+| `Remove-Item -Path xxxxxx` | Delete an item |
+| `Get-Content -Path ".\captain-hat.txt"` | Read a file |
+| `Get-Item -Path "C:\House\house_log.txt" -Stream *` | List all data streams of a file (alternate data streams) |
+
+## Sorting and filtering (pipeline)
+
+| Command | Description |
+| --- | --- |
+| `Get-ChildItem \| Sort-Object Length` | List files in a directory sorted by size |
+| `Get-ChildItem \| Where-Object -Property "Extension" -eq ".txt"` | Only `.txt` files |
+| `Get-ChildItem \| Where-Object -Property "Name" -like "ship*"` | Names starting with "ship" |
+| `Get-ChildItem \| Where-Object -Property Length -gt 100` | Items larger than 100 bytes |
+| `Get-Service \| Where-Object {$_.DisplayName -like "*merry*"}` | Services whose display name contains "merry" |
+
+## System, processes, network, hashes
+
+| Command | Description |
+| --- | --- |
+| `Get-Service` | Status of services on the machine: running, stopped or paused |
+| `Get-Process` | Detailed view of all running processes, including CPU and memory usage. Powerful for monitoring and troubleshooting |
+| `Get-NetTCPConnection` | Current TCP connections, with both local and remote endpoints |
+| `Get-FileHash` | Generate file hashes. Valuable in incident response, threat hunting and malware analysis to verify file integrity and detect tampering |
+
+## Remote execution
+
+| Command | Description |
+| --- | --- |
+| `Invoke-Command` | Run commands on local or remote computers |
+| `Get-Help Invoke-Command -Examples` | Examples for `Invoke-Command` |
+| `Invoke-Command -FilePath c:\scripts\test.ps1 -ComputerName Server01` | Combine the cmdlet with a custom script to automate tasks on remote computers |
+| `Invoke-Command -ComputerName Server01 -Credential Domain01\User01 -ScriptBlock { Get-Culture }` | You don't need to know scripting to benefit: append `-ScriptBlock { ... }` |
+
+## Related
+
+- Previous: [Command Line (cmd)](./command-line.md) · [Windows Fundamentals](./fundamentals.md)
+- Domain context: [Active Directory Basics](./active-directory-basics.md)
+- Linux scripting: [Linux Shells](../linux/shells.md) · [cross-platform cheat sheet](../cross-platform.md)
