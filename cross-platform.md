@@ -15,6 +15,7 @@ Same task, both operating systems. Everything marked **TODO** is a gap in the no
 | Services | `Get-Service` | `systemctl start / stop / enable / disable` |
 | Network connections | `netstat -abon`, `Get-NetTCPConnection` | TODO: `ss` / `netstat` |
 | IP configuration | `ipconfig /all` | TODO: `ip a` |
+| IP to MAC list (ARP cache) | `arp -a` | `arp -a` (see [ARP](./networking/arp.md)) |
 | Trace a route | `tracert target` | TODO: `traceroute` |
 | DNS lookup | `nslookup target` | TODO: `dig` / `nslookup` |
 | File hash | `Get-FileHash` | TODO: `sha256sum` |

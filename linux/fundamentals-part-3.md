@@ -72,4 +72,5 @@ minute  hour  day-of-month  month  day-of-week  command
 ## Related
 
 - Next: [Linux Shells](./shells.md): put these commands into scripts
+- Networking concept: [ARP](../networking/arp.md)
 - Windows equivalents: [cross-platform cheat sheet](../cross-platform.md) · [PowerShell](../windows/powershell.md) (`Get-Process`, `Get-Service`)

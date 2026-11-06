@@ -20,11 +20,16 @@ Read in this order:
 1. [Linux Fundamentals, Part 3](./linux/fundamentals-part-3.md): file transfer, processes, services, cron
 2. [Linux Shells](./linux/shells.md): bash scripting basics ([example scripts](./linux/shells-example.sh))
 
+## Networking
+
+1. [ARP](./networking/arp.md): how a device finds another device's MAC address from its IP
+
 ## Map
 
 ```
 windows/   fundamentals -> command-line -> powershell -> active-directory-basics
 linux/     fundamentals-part-3 -> shells -> shells-example.sh
+networking/         arp
 cross-platform.md   links the two sides together
 ```
 

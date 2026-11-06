@@ -21,6 +21,7 @@ Replace `(target)` with a real website or IP address, for example `google.com`.
 | `ipconfig /all` | Shows full network details (MAC address, DNS, DHCP) | `ipconfig /all` |
 | `tracert (target)` | Shows each router your traffic passes through to reach the target | `tracert google.com` |
 | `nslookup (target)` | Turns a domain name into an IP address | `nslookup google.com` |
+| `arp -a` | Shows the saved list of IP addresses and their MAC addresses (see [ARP](../networking/arp.md)) | `arp -a` |
 | `netstat` | Shows current network connections | `netstat` |
 | `netstat -a` | Shows all connections **and** the ports waiting for connections | `netstat -a` |
 | `netstat -n` | Shows numbers (IPs and ports) instead of names, so it is faster | `netstat -n` |
@@ -41,4 +42,5 @@ Replace `(target)` with a real website or IP address, for example `google.com`.
 
 - Previous: [Windows Fundamentals](./fundamentals.md)
 - Next: [PowerShell](./powershell.md), the modern replacement (`netstat` becomes `Get-NetTCPConnection`)
+- Concept behind `arp -a`: [ARP](../networking/arp.md)
 - Linux equivalents: [cross-platform cheat sheet](../cross-platform.md)
