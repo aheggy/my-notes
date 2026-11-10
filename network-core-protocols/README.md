@@ -26,6 +26,7 @@ The everyday protocols behind browsing, file transfer and email. They all follow
 
 | Protocol | Job | Default port | Transport | Note |
 | --- | --- | --- | --- | --- |
+| Telnet | Logs in to another machine with text commands (also used to test the other protocols) | 23 | TCP | Plain text, no encryption |
 | [DNS](./dns.md) | Turns names into IP addresses | 53 | UDP (TCP fallback) | Records: A, AAAA, CNAME, MX |
 | [HTTP](./http.md) | Gets web pages | 80 (8080) | TCP | Methods: GET, POST, PUT, DELETE |
 | HTTPS ([HTTP](./http.md)) | Secure version of HTTP | 443 (8443) | TCP | The "S" is Secure |
