@@ -24,13 +24,14 @@ Read in this order:
 
 1. [DHCP](./networking/dhcp.md): how a device gets its IP, gateway and DNS automatically (DORA)
 2. [ARP](./networking/arp.md): how a device finds another device's MAC address from its IP
+3. [DNS and WHOIS](./networking/dns.md): turning names into IPs (A, AAAA, CNAME, MX), `nslookup`, `whois`
 
 ## Map
 
 ```
 windows/   fundamentals -> command-line -> powershell -> active-directory-basics
 linux/     fundamentals-part-3 -> shells -> shells-example.sh
-networking/         dhcp -> arp
+networking/         dhcp -> arp -> dns
 cross-platform.md   links the two sides together
 ```
 

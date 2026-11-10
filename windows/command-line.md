@@ -42,6 +42,7 @@ Replace `(target)` with a real website or IP address, for example `google.com`.
 
 - Previous: [Windows Fundamentals](./fundamentals.md)
 - Next: [PowerShell](./powershell.md), the modern replacement (`netstat` becomes `Get-NetTCPConnection`)
+- Concept behind `nslookup`: [DNS](../networking/dns.md)
 - Concept behind `ipconfig /all`: [DHCP](../networking/dhcp.md)
 - Concept behind `arp -a`: [ARP](../networking/arp.md)
 - Linux equivalents: [cross-platform cheat sheet](../cross-platform.md)
