@@ -4,6 +4,24 @@
 
 The everyday protocols behind browsing, file transfer and email. They all follow the same idea: **the client sends a short text command, the server sends a reply.** Because they are plain text, you can even "talk" to them yourself with `telnet`.
 
+## Ports to memorize
+
+| Protocol | Transport protocol | Default port |
+| --- | --- | --- |
+| TELNET | TCP | **23** |
+| DNS | UDP or TCP | **53** |
+| HTTP | TCP | **80** |
+| HTTPS | TCP | **443** |
+| FTP | TCP | **21** |
+| SMTP | TCP | **25** |
+| POP3 | TCP | **110** |
+| IMAP | TCP | **143** |
+
+- **TCP** is reliable: it makes sure the data arrives. **UDP** is faster but does not check.
+- DNS normally uses UDP and falls back to TCP.
+- **Telnet** is a protocol for logging in to another machine with text commands (port 23). The `telnet` program can also connect to other ports (80, 25, 110, 143), which is why it is useful for testing the protocols below.
+- In order by number: 21 FTP, 23 Telnet, 25 SMTP, 53 DNS, 80 HTTP, 110 POP3, 143 IMAP, 443 HTTPS.
+
 ## At a glance
 
 | Protocol | Job | Default port | Transport | Note |
