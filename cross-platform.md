@@ -17,7 +17,7 @@ Same task, both operating systems. Everything marked **TODO** is a gap in the no
 | IP configuration | `ipconfig /all` | TODO: `ip a` |
 | IP to MAC list (ARP cache) | `arp -a` | `arp -a` (see [ARP](./networking/arp.md)) |
 | Trace a route | `tracert target` | TODO: `traceroute` |
-| DNS lookup | `nslookup target` | `nslookup target` (see [DNS](./networking/dns.md)); TODO: `dig` |
+| DNS lookup | `nslookup target` | `nslookup target` (see [DNS](./network-core-protocols/dns.md)); TODO: `dig` |
 | Who owns a domain | TODO: online WHOIS | `whois domain` |
 | File hash | `Get-FileHash` | TODO: `sha256sum` |
 | Download a file | TODO: `Invoke-WebRequest` | `wget`, `curl` |

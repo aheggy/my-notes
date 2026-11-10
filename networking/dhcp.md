@@ -85,6 +85,6 @@ How to read it:
 ## Related
 
 - Next step in the same flow: [ARP](./arp.md) finds the router's MAC address (DHCP gives only its IP)
-- Next: [DNS](./dns.md): what your device does with the DNS server DHCP gave it
+- Next: [DNS](../network-core-protocols/dns.md): what your device does with the DNS server DHCP gave it
 - Windows: [Command Line (cmd)](../windows/command-line.md)
 - [Windows vs Linux cheat sheet](../cross-platform.md)

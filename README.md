@@ -24,14 +24,25 @@ Read in this order:
 
 1. [DHCP](./networking/dhcp.md): how a device gets its IP, gateway and DNS automatically (DORA)
 2. [ARP](./networking/arp.md): how a device finds another device's MAC address from its IP
-3. [DNS and WHOIS](./networking/dns.md): turning names into IPs (A, AAAA, CNAME, MX), `nslookup`, `whois`
+
+## Network Core Protocols
+
+Start with the [overview](./network-core-protocols/README.md) (ports, telnet tests, how email fits together).
+
+1. [DNS and WHOIS](./network-core-protocols/dns.md): turning names into IPs (A, AAAA, CNAME, MX), `nslookup`, `whois`
+2. [HTTP and HTTPS](./network-core-protocols/http.md): web pages, GET / POST / PUT / DELETE
+3. [FTP](./network-core-protocols/ftp.md): moving files, anonymous login
+4. [SMTP](./network-core-protocols/smtp.md): sending email
+5. [POP3](./network-core-protocols/pop3.md): downloading email
+6. [IMAP](./network-core-protocols/imap.md): syncing email across devices
 
 ## Map
 
 ```
 windows/   fundamentals -> command-line -> powershell -> active-directory-basics
 linux/     fundamentals-part-3 -> shells -> shells-example.sh
-networking/         dhcp -> arp -> dns
+networking/               dhcp -> arp
+network-core-protocols/  dns -> http -> ftp -> smtp -> pop3 -> imap
 cross-platform.md   links the two sides together
 ```
 

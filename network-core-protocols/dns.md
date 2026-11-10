@@ -1,4 +1,4 @@
-[Home](../README.md) › Networking › DNS and WHOIS
+[Home](../README.md) › Network Core Protocols › DNS and WHOIS
 
 # DNS (Domain Name System) and WHOIS
 
@@ -8,7 +8,7 @@
 
 Nobody remembers the IP address of their favourite websites. **DNS maps a domain name to an IP address**, so you type `example.com` and your computer finds `93.184.215.14` for you.
 
-Your device gets the IP of its DNS server automatically from [DHCP](./dhcp.md).
+Your device gets the IP of its DNS server automatically from [DHCP](../networking/dhcp.md).
 
 ## Quick facts
 
@@ -120,7 +120,9 @@ Why this matters for security work: `nslookup` and `whois` are among the first s
 
 ## Related
 
-- Before DNS: [DHCP](./dhcp.md) gives your device its DNS server
-- Local network: [ARP](./arp.md)
+- Before DNS: [DHCP](../networking/dhcp.md) gives your device its DNS server
+- Local network: [ARP](../networking/arp.md)
+- Next: [HTTP](./http.md) · [FTP](./ftp.md) · [SMTP](./smtp.md) · [POP3](./pop3.md) · [IMAP](./imap.md)
+- Overview: [Network Core Protocols](./README.md)
 - Windows: [Command Line (cmd)](../windows/command-line.md) (`nslookup`)
 - [Windows vs Linux cheat sheet](../cross-platform.md)
